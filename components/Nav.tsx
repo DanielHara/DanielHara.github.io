@@ -17,10 +17,6 @@ function Nav() {
       <nav className="gap-3 sm:gap-5 md:gap-10 lg:gap-10 xl:gap-10 2xl:gap-10 inline-flex justify-center sm:justify-center md:justify-right mt-5 sm:mt-5 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0  items-start text-white text-left font-medium">
 
         <Link href={"/"} className="m-0 text-xs sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">Home</Link>
-        <Link href={"/tag/programming"} className="m-0 text-xs sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">Programming</Link>
-        <Link href={"/tag/photography"} className="m-0 text-xs sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">Photography</Link>
-        <Link href={"/tag/android"} className="m-0 text-xs sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">Android</Link>
-        <Link href={"/tag/smart-phone"} className="m-0 text-xs sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">Smart Phone</Link>
         <Link href={"/page/about"} className="m-0 text-xs sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">About</Link>
 
       </nav>
@@ -30,13 +26,6 @@ function Nav() {
         <Link href="#" target="_blank"> <FaTwitter className="mx-3 text-white" /> </Link>
         <Link href="#" target="_blank"> <FaInstagram className="mx-3 text-white" /> </Link>
         <Link href="#" target="_blank"> <FaLinkedinIn className="mx-3 text-white" /> </Link>
-
-
-        <button type="button" className="px-5 mx-auto py-2.5 w-[150px] gap-2.5 inline-flex flex-col justify-center items-center rounded-lg text-center font-medium bg-[#dce8fc] text-[rgba(35,46,82,1)]">
-          Subscribe
-        </button>
-
-
       </div>
     </div>
   );

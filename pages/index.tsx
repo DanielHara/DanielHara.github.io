@@ -1,6 +1,5 @@
 import Header from "../components/Header"
 import Post from '../components/Post';
-import Newsletter from '../components/Newsletter';
 import Pagination from '../components/Pagination';
 import {posts as data} from '../data/post';
 import dayjs from "dayjs";
@@ -49,9 +48,6 @@ export default function Home({ posts }: homePageProps) {
 
 
       </main>
-
-
-      <Newsletter />
     </>
   )
 }

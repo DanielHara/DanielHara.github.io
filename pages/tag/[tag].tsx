@@ -30,8 +30,6 @@ function Tag({ posts, tag }: tagPageProps) {
         }
 
       </main>
-
-      <Newsletter />
     </>
   );
 }
