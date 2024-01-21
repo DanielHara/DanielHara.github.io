@@ -1,11 +1,12 @@
 import Link from "next/link";
 import React from "react";
 import {
-  FaFacebookF,
-  FaInstagram,
   FaLinkedinIn,
-  FaTwitter
+  FaGithub,
 } from "react-icons/fa";
+import {
+  MdEmail,
+} from "react-icons/md";
 
 function Nav() {
 
@@ -21,11 +22,9 @@ function Nav() {
 
       </nav>
       <div className="hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex flex-row justify-between items-center">
-
-        <Link href="#" target="_blank"> <FaFacebookF className="mx-3 text-white" /> </Link>
-        <Link href="#" target="_blank"> <FaTwitter className="mx-3 text-white" /> </Link>
-        <Link href="#" target="_blank"> <FaInstagram className="mx-3 text-white" /> </Link>
-        <Link href="#" target="_blank"> <FaLinkedinIn className="mx-3 text-white" /> </Link>
+        <Link href="https://github.com/DanielHara" target="_blank"> <FaGithub className="mx-3 text-white" /> </Link>
+        <Link href="https://www.linkedin.com/in/daniel-hara-33752715a/" target="_blank"> <FaLinkedinIn className="mx-3 text-white" /> </Link>
+        <Link href="mailto:haradaniel734@gmail.com" target="_blank"> <MdEmail className="mx-3 text-white" /> </Link>
       </div>
     </div>
   );

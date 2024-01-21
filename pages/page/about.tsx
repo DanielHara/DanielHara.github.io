@@ -55,7 +55,7 @@ function Pages() {
                             Backend
                             <ol>
                                 <li>
-                                    <b>Python</b> - I've been using this language to solve coding challenges on https://leetcode.com/
+                                    <b>Python</b> - I've been using this language to solve coding challenges on <a href="https://leetcode.com/">Leetcode</a>
                                 </li>
                                 <li>
                                     <b>Java</b>
@@ -86,7 +86,12 @@ function Pages() {
                         </li>
                     </ul>
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
-                    You can download my full CV on <a href="https://drive.google.com/file/d/1-5MsXbAZKNYv6Tu77u-Srai26qEZFLCn/view">this link</a>
+                    You can download my full CV on <a href="https://drive.google.com/file/d/1-5MsXbAZKNYv6Tu77u-Srai26qEZFLCn/view">this link</a>.
+                </p>
+
+                <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
+                    I'd be happy to connect on <a href="https://www.linkedin.com/in/daniel-hara-33752715a/">LinkedIn</a> to talk about pretty much anything!
+                    Or you could also drop me an <a href="mailto:haradaniel734@gmail.com">email</a>, or check out some of my repos at <a href="https://github.com/DanielHara" target="_blank" rel="noreferrer">GitHub</a>.
                 </p>
             </div>
         </>
