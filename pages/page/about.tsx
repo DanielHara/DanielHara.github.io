@@ -35,19 +35,19 @@ function Pages() {
                             Frontend
                             <ol>
                                 <li>
-                                    HTML / Javascript / CSS (obviously, duuuh)
+                                    <b>HTML / Javascript / CSS</b> (obviously, duuuh)
                                 </li>
                                 <li>
-                                    React / Redux (that started in 2018)
+                                    <b>React / Redux</b> (that started in 2018)
                                 </li>
                                 <li>
-                                    NEXT.js - this blog uses it (it's a fork from <a href="https://github.com/frontendweb3/blogify">https://github.com/frontendweb3/blogify</a>)
+                                    <b>NEXT.js</b> - this blog uses it (it's a fork from <a href="https://github.com/frontendweb3/blogify">https://github.com/frontendweb3/blogify</a>)
                                 </li>
                                 <li>
-                                    Webpack (I loved tinkering with its plugins and configuration when I worked at https://moneypark.ch/)
+                                    <b>webpack</b> (I loved tinkering with its plugins and configuration when I worked at <a href="https://moneypark.ch">MoneyPark</a>)
                                 </li>
                                 <li>
-                                    react-testing-library (I'm passionate about writing tests, which began already at my first real job, quite some years ago: https://developer.epages.com/blog/coding/unit-testing-in-react/)
+                                    <b>react-testing-library</b> (I'm passionate about writing tests, which began already at my first real job, quite some years ago. I wrote this <a href="https://developer.epages.com/blog/coding/unit-testing-in-react/">post</a> about it back then)
                                 </li>
                             </ol>
                         </li>
@@ -55,13 +55,13 @@ function Pages() {
                             Backend
                             <ol>
                                 <li>
-                                    Python - I've been using this language to solve coding challenges on https://leetcode.com/
+                                    <b>Python</b> - I've been using this language to solve coding challenges on https://leetcode.com/
                                 </li>
                                 <li>
-                                    Java
+                                    <b>Java</b>
                                 </li>
                                 <li>
-                                    SQL databases
+                                   <b>SQL databases</b>
                                 </li>
                             </ol>
                         </li>
@@ -69,7 +69,7 @@ function Pages() {
                             Data Structures & Algorithms
                             <ol>
                                 <li>
-                                    Leetcode: check out some of my solutions at https://github.com/DanielHara, https://leetcode.com/haradaniel/
+                                    <b>Leetcode</b> - check out some of my solutions at <a href="https://github.com/DanielHara/leetcode-solutions">this repo</a>, and <a href="https://leetcode.com/haradaniel/">my profile</a>
                                 </li>
                             </ol>
                         </li>
@@ -86,7 +86,7 @@ function Pages() {
                         </li>
                     </ul>
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
-                    You can download my full CV here: 
+                    You can download my full CV on <a href="https://drive.google.com/file/d/1-5MsXbAZKNYv6Tu77u-Srai26qEZFLCn/view">this link</a>
                 </p>
             </div>
         </>
