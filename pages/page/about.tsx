@@ -14,8 +14,19 @@ function Pages() {
                 </p>
 
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
+                    I'm originally Brazilian with Japanese (from my dad's side) and Spanish (from my mom's side) origins. I lived in São Paulo for 24 years, up to my graduation
+                    in Computer Engineering at ITA, which is arguably the most rigorous engineering school in Brazil. In case you're curious: https://en.wikipedia.org/wiki/Instituto_Tecnol%C3%B3gico_de_Aeron%C3%A1utica
+                </p>
+
+                <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
+                    My free time is spent between sport, playing the piano and watching performances of classical music and opera (I'm proud to say I've been to most of the major opera houses in the world).
+                </p>
+
+                <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
                     Stuff I have been working with includes:
-                    <ul>
+                </p>
+
+                <ul>
                         <li>
                             Frontend
                             <ol>
@@ -23,7 +34,7 @@ function Pages() {
                                     HTML / Javascript / CSS (obviously, duuuh)
                                 </li>
                                 <li>
-                                    React / Redux
+                                    React / Redux (that started in 2018)
                                 </li>
                                 <li>
                                     NEXT.js - this blog uses it (it's a fork from https://github.com/frontendweb3/blogify)
@@ -36,8 +47,40 @@ function Pages() {
                                 </li>
                             </ol>
                         </li>
+                        <li>
+                            Backend
+                            <ol>
+                                <li>
+                                    Python - I've been using this language to solve coding challenges on https://leetcode.com/
+                                </li>
+                                <li>
+                                    Java
+                                </li>
+                                <li>
+                                    SQL databases
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            Machine learning (still just playing around with it)
+                            <ol>
+                                <li>
+                                    Tensorflow / Keras
+                                </li>
+                                <li>
+                                    SySpark
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            Data Structures & Algorithms
+                            <ol>
+                                <li>
+                                    Leetcode: check out some of my solutions at https://github.com/DanielHara, https://leetcode.com/haradaniel/
+                                </li>
+                            </ol>
+                        </li>
                     </ul>
-                </p>
                 
 
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
