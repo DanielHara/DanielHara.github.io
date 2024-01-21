@@ -31,8 +31,8 @@ function Header(props: HeaderComponent) {
 }
 
 Header.defaultProps = {
-  tag: "👋 Rajdeep Singh",
-  title: "Start your front-end developer career journey with me."
+  tag: "👋 Daniel Hara",
+  title: "Some thoughts about programming, music, and other topics"
 };
 
 interface HeaderComponent {
