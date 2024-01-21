@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image'
 import Header from '../../components/Header';
 
 function Pages() {
@@ -13,9 +13,13 @@ function Pages() {
                     up to theoretical Computer Science problems. I'm a quite well-rounded person, so you'll find here posts about coding, living abroad, sports, music, traveling and learning new languages.
                 </p>
 
+                <div className="flex justify-center items-center">
+                    <Image src="/images/Hara.jpg" width={500} height={500} />
+                </div>
+
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
-                    I'm originally Brazilian with Japanese (from my dad's side) and Spanish (from my mom's side) origins. I lived in São Paulo for 24 years, up to my graduation
-                    in Computer Engineering at ITA, which is arguably the most rigorous engineering school in Brazil. In case you're curious: https://en.wikipedia.org/wiki/Instituto_Tecnol%C3%B3gico_de_Aeron%C3%A1utica
+                    I'm originally Brazilian, with Japanese (from my dad's side) and Spanish (from my mom's side) origins. I lived in São Paulo for 24 years, up to my graduation
+                    in Computer Engineering at ITA, which is arguably the most rigorous engineering school in Brazil. In case you're curious, here is an <a href="https://en.wikipedia.org/wiki/Instituto_Tecnol%C3%B3gico_de_Aeron%C3%A1utica"> article about it</a>.
                 </p>
 
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
@@ -62,17 +66,6 @@ function Pages() {
                             </ol>
                         </li>
                         <li>
-                            Machine learning (still just playing around with it)
-                            <ol>
-                                <li>
-                                    Tensorflow / Keras
-                                </li>
-                                <li>
-                                    SySpark
-                                </li>
-                            </ol>
-                        </li>
-                        <li>
                             Data Structures & Algorithms
                             <ol>
                                 <li>
@@ -80,11 +73,20 @@ function Pages() {
                                 </li>
                             </ol>
                         </li>
+                        <li>
+                            Machine learning (still just playing around with it)
+                            <ol>
+                                <li>
+                                    Tensorflow / Keras
+                                </li>
+                                <li>
+                                    Models like k-means, Regression Tree, Neural Networks, and so on
+                                </li>
+                            </ol>
+                        </li>
                     </ul>
-                
-
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
-                    You can download my CV here:
+                    You can download my full CV here: 
                 </p>
             </div>
         </>
