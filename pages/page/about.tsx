@@ -7,7 +7,7 @@ function Pages() {
     return (
         <>
             <Header tag='hidden' title='About me' />
-            <div className="my-12 prose prose-stone lg:prose-lg mx-auto px-8">
+            <div className="my-12 prose prose-stone lg:prose-lg mx-auto px-8 text-justify">
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
                     Hi there! I'm a frontend developer, currently living in the outskirts of Zurich, Switzerland. I'm passionate about solving interesting problems, ranging from designing delightful UX experiences
                     up to theoretical Computer Science problems. I'm a quite well-rounded person, so you'll find here posts about coding, living abroad, sports, music, traveling and learning new languages.
@@ -23,7 +23,7 @@ function Pages() {
                 </p>
 
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
-                    My free time is spent between sport, playing the piano and watching performances of classical music and opera (I'm proud to say I've been to most of the major opera houses in the world).
+                    My free time is spent between sport, playing the piano (<a href="https://www.youtube.com/watch?v=HQsBRMhLgv8">here's</a> a video, if you're curious) and watching performances of classical music and opera (I'm proud to say I've been to most of the major opera houses in the world). I'm also keen on learning languages and I'm currently having a fun and hard time learning Russian.
                 </p>
 
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
@@ -35,7 +35,7 @@ function Pages() {
                             Frontend
                             <ol>
                                 <li>
-                                    <b>HTML / Javascript / CSS</b> (obviously, duuuh)
+                                    <b>HTML / Javascript / TypeScript / CSS</b> (obviously, duuuh)
                                 </li>
                                 <li>
                                     <b>React / Redux</b> (that started in 2018)
@@ -48,6 +48,14 @@ function Pages() {
                                 </li>
                                 <li>
                                     <b>react-testing-library</b> (I'm passionate about writing tests, which began already at my first real job, quite some years ago. I wrote this <a href="https://developer.epages.com/blog/coding/unit-testing-in-react/">post</a> about it back then)
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            Data Structures & Algorithms
+                            <ol>
+                                <li>
+                                    <b>Leetcode</b> - check out some of my solutions at <a href="https://github.com/DanielHara/leetcode-solutions">this repo</a>, and <a href="https://leetcode.com/haradaniel/">my profile</a>
                                 </li>
                             </ol>
                         </li>
@@ -66,14 +74,6 @@ function Pages() {
                             </ol>
                         </li>
                         <li>
-                            Data Structures & Algorithms
-                            <ol>
-                                <li>
-                                    <b>Leetcode</b> - check out some of my solutions at <a href="https://github.com/DanielHara/leetcode-solutions">this repo</a>, and <a href="https://leetcode.com/haradaniel/">my profile</a>
-                                </li>
-                            </ol>
-                        </li>
-                        <li>
                             Machine learning (still just playing around with it)
                             <ol>
                                 <li>
@@ -86,12 +86,12 @@ function Pages() {
                         </li>
                     </ul>
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
-                    You can download my full CV on <a href="https://drive.google.com/file/d/1-5MsXbAZKNYv6Tu77u-Srai26qEZFLCn/view">this link</a>.
+                    Here's <a href="https://standardresume.co/r/tiNJBp6aiHvgBjLXf8Q0K">a link</a> to my full CV.
                 </p>
 
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
                     I'd be happy to connect on <a href="https://www.linkedin.com/in/daniel-hara-33752715a/">LinkedIn</a> to talk about pretty much anything!
-                    Or you could also drop me an <a href="mailto:haradaniel734@gmail.com">email</a>, or check out some of my repos at <a href="https://github.com/DanielHara" target="_blank" rel="noreferrer">GitHub</a>.
+                    Or you could also drop me an <a href="mailto:haradaniel734@gmail.com">email</a>, or check out some of my repos on <a href="https://github.com/DanielHara" target="_blank" rel="noreferrer">GitHub</a>.
                 </p>
             </div>
         </>
