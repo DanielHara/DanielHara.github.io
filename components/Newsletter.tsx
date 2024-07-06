@@ -37,6 +37,6 @@ function Newsletter() {
     </div>
   );
 
-};
+}
 
 export default Newsletter;

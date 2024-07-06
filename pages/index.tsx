@@ -31,7 +31,7 @@ export default function Home({ posts }: homePageProps) {
         {
           posts?.map(
             (item: itemProps) => {
-              let GetDate = dayjs(item.date).format("DD-MMM , YYYY")
+              const GetDate = dayjs(item.date).format("DD-MMM , YYYY")
 
               return <Post key={item.id}
                 tag={item.tags[0]}
