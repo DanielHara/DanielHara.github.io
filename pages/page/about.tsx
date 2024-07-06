@@ -14,7 +14,7 @@ function Pages() {
                 </p>
 
                 <div className="flex justify-center items-center">
-                    <Image src="/images/Hara.jpg" width={500} height={500} />
+                    <Image src="/images/Hara.jpg" width={500} height={500} alt="Daniel's picture" />
                 </div>
 
                 <p className="mb-3 font-light text-gray-500 dark:text-gray-400 ">
