@@ -28,7 +28,7 @@ const ViewAlbum = () => {
       <div>
         <Grid container spacing={2}>
             {pictures.map((picture) => <Grid item xs={12} md={4} height='300px' position="relative">
-                <Image src={picture.url} fill style={{ objectFit: 'contain' }}/>
+                <Image src={picture.url} fill style={{ objectFit: 'contain' }} alt={picture.alt_description} />
             </Grid>)}
         </Grid>
         <div ref={endOfListRef}>You reached the end of the page</div>
